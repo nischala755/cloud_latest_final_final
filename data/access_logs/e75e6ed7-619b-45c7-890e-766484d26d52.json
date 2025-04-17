@@ -1,0 +1,24 @@
+{
+    "file_id": "e75e6ed7-619b-45c7-890e-766484d26d52",
+    "file_name": "1BG22AI067_Provisional_Grade_Card.pdf",
+    "logs": [
+        {
+            "action": "upload",
+            "user": "admin",
+            "timestamp": "2025-04-17T21:48:50.986396",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-04-17T21:55:21.219216",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-04-17T22:01:12.124765",
+            "ip": "127.0.0.1"
+        }
+    ]
+}

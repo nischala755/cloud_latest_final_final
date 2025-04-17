@@ -1,0 +1,222 @@
+/* Main styling */
+body {
+    font-family: 'Inter', sans-serif;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Custom container styling */
+.main .block-container {
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+/* Login page styling */
+.login-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    margin-bottom: 2rem;
+}
+
+.login-box {
+    text-align: center;
+    padding: 2rem;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #6e8efb, #a777e3);
+    color: white;
+    box-shadow: 0 8px 32px rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(4px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    width: 80%;
+    max-width: 500px;
+}
+
+.login-box h1 {
+    font-size: 3rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+
+.login-box h3 {
+    font-size: 1.2rem;
+    font-weight: 400;
+    opacity: 0.9;
+}
+
+/* Dashboard styling */
+.stTabs [data-baseweb="tab-list"] {
+    gap: 1rem;
+}
+
+.stTabs [data-baseweb="tab"] {
+    height: 3rem;
+    white-space: pre-wrap;
+    border-radius: 4px 4px 0 0;
+}
+
+.stTabs [aria-selected="true"] {
+    background-color: rgba(110, 142, 251, 0.1);
+    border-bottom-color: #6e8efb !important;
+}
+
+/* Card styling */
+.card {
+    padding: 1.5rem;
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    margin-bottom: 1rem;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Button styling */
+.stButton > button {
+    border-radius: 4px;
+    padding: 0.5rem 1rem;
+    font-weight: 500;
+    transition: all 0.3s ease;
+}
+
+.stButton > button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* File list styling */
+[data-testid="stVerticalBlock"] > div:has(button) {
+    background-color: white;
+    padding: 0.75rem;
+    border-radius: 8px;
+    margin-bottom: 0.5rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+    transition: all 0.2s ease;
+}
+
+[data-testid="stVerticalBlock"] > div:has(button):hover {
+    background-color: #f0f7ff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Metrics styling */
+[data-testid="metric-container"] {
+    background-color: white;
+    border-radius: 8px;
+    padding: 1rem;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+[data-testid="metric-container"] > div:first-child {
+    color: #6e8efb;
+}
+
+/* Sidebar styling */
+[data-testid="stSidebar"] {
+    background-color: #f8f9fa;
+    border-right: 1px solid #e9ecef;
+}
+
+[data-testid="stSidebar"] [data-testid="stMarkdown"] {
+    padding: 0.5rem 0;
+}
+
+/* Chart styling */
+[data-testid="stPlotlyChart"] > div {
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Dataframe styling */
+[data-testid="stDataFrame"] {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Text input styling */
+[data-testid="stTextInput"] > div > div {
+    border-radius: 4px;
+}
+
+/* File uploader styling */
+[data-testid="stFileUploader"] {
+    border-radius: 8px;
+    padding: 1rem;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+/* Tabs styling */
+.stTabs [data-baseweb="tab-panel"] {
+    padding-top: 1rem;
+}
+
+/* Animation for dashboard elements */
+@keyframes fadeIn {
+    from { opacity: 0; transform: translateY(20px); }
+    to { opacity: 1; transform: translateY(0); }
+}
+
+.main .element-container {
+    animation: fadeIn 0.5s ease-out forwards;
+}
+
+/* Custom scrollbar */
+::-webkit-scrollbar {
+    width: 8px;
+    height: 8px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #c1c1c1;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #a8a8a8;
+}
+
+/* Dark mode adjustments */
+@media (prefers-color-scheme: dark) {
+    body {
+        color: #f1f1f1;
+        background-color: #1e1e1e;
+    }
+    
+    .card, [data-testid="metric-container"], [data-testid="stFileUploader"],
+    [data-testid="stVerticalBlock"] > div:has(button) {
+        background-color: #2d2d2d;
+    }
+    
+    [data-testid="stVerticalBlock"] > div:has(button):hover {
+        background-color: #3d3d3d;
+    }
+    
+    [data-testid="stSidebar"] {
+        background-color: #1e1e1e;
+        border-right: 1px solid #333;
+    }
+    
+    ::-webkit-scrollbar-track {
+        background: #2d2d2d;
+    }
+    
+    ::-webkit-scrollbar-thumb {
+        background: #555;
+    }
+    
+    ::-webkit-scrollbar-thumb:hover {
+        background: #777;
+    }
+}

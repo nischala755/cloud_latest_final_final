@@ -1,0 +1,88 @@
+{
+    "username": "admin",
+    "email": "admin123@gmail.com",
+    "password_hash": "142b0a5c3ad0d17f28f47a1ffe1ec0c8dc25ef87cba21ee208969613e299e325",
+    "salt": "a30f3b918141d38a662e03b1d290c7f3",
+    "created_at": "2025-04-17T21:46:25.807620",
+    "last_login": "2025-04-17T22:48:43.969809",
+    "score": 118,
+    "files": [
+        {
+            "file_id": "e75e6ed7-619b-45c7-890e-766484d26d52",
+            "file_name": "1BG22AI067_Provisional_Grade_Card.pdf",
+            "encryption_method": "AES-256",
+            "uploaded_at": "2025-04-17T21:48:50.988251",
+            "last_accessed": "2025-04-17T21:48:50.988261"
+        },
+        {
+            "file_id": "0619525c-adb5-4674-8b06-e3d28e5ae225",
+            "file_name": "1BG22AI067NischalaG.S. (1).jpg",
+            "encryption_method": "AES-256",
+            "uploaded_at": "2025-04-17T21:49:11.582467",
+            "last_accessed": "2025-04-17T21:49:11.582476"
+        },
+        {
+            "file_id": "81291784-d196-4c85-bfcd-c3482564fa10",
+            "file_name": "Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
+            "encryption_method": "Hybrid (RSA+AES)",
+            "uploaded_at": "2025-04-17T21:53:39.312379",
+            "last_accessed": "2025-04-17T21:53:39.312388"
+        }
+    ],
+    "shared_files": [],
+    "access_history": [
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T21:46:30.141806",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T21:47:40.641846",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "e75e6ed7-619b-45c7-890e-766484d26d52",
+            "file_name": "1BG22AI067_Provisional_Grade_Card.pdf",
+            "timestamp": "2025-04-17T21:48:50.988265"
+        },
+        {
+            "type": "upload",
+            "file_id": "0619525c-adb5-4674-8b06-e3d28e5ae225",
+            "file_name": "1BG22AI067NischalaG.S. (1).jpg",
+            "timestamp": "2025-04-17T21:49:11.582481"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T21:50:55.335166",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T21:53:23.022711",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "81291784-d196-4c85-bfcd-c3482564fa10",
+            "file_name": "Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
+            "timestamp": "2025-04-17T21:53:39.312392"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T21:56:56.862005",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T22:00:29.964707",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-17T22:48:43.969821",
+            "ip": "127.0.0.1"
+        }
+    ]
+}

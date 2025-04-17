@@ -1,0 +1,43 @@
+{
+    "file_id": "81291784-d196-4c85-bfcd-c3482564fa10",
+    "file_name": "Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
+    "logs": [
+        {
+            "action": "upload",
+            "user": "admin",
+            "timestamp": "2025-04-17T21:53:39.310061",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-04-17T21:54:42.860140",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-04-17T21:57:04.026206",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "share",
+            "user": "admin",
+            "shared_with": "user",
+            "permission": "read",
+            "timestamp": "2025-04-17T21:57:39.856703"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-04-17T22:00:37.204763",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-04-17T22:48:51.305628",
+            "ip": "127.0.0.1"
+        }
+    ]
+}
