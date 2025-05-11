@@ -9,3 +9,5 @@ cryptography>=40.0.2
 pycryptodome>=3.17.0
 python-dateutil>=2.8.2
 pytz>=2023.3
+uuid>=1.30       # For generating unique IDs
+scikit-learn>=1.2.2  # If you're using any ML features

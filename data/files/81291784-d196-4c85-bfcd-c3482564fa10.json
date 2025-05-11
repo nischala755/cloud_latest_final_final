@@ -4,7 +4,7 @@
     "original_name": "Hands-On_Machine_Learning_with_Scikit-Learn-Keras-and-TensorFlow-2nd-Edition-Aurelien-Geron.pdf",
     "owner": "admin",
     "uploaded_at": "2025-04-17T21:53:38.567496",
-    "last_accessed": "2025-04-17T22:48:51.301171",
+    "last_accessed": "2025-05-11T18:17:16.240426",
     "encryption_method": "Hybrid (RSA+AES)",
     "size": 78057685,
     "shared_with": [
@@ -12,6 +12,11 @@
             "username": "user",
             "permission": "read",
             "shared_at": "2025-04-17T21:57:39.852695"
+        },
+        {
+            "username": "user1",
+            "permission": "write",
+            "shared_at": "2025-05-11T18:18:29.101824"
         }
     ],
     "merkle_root": "c88660d806a1842e9a9dfb14376f78f397d6dd697d9f74373fe2e5a0bacf16c7"

@@ -25,7 +25,7 @@ def determine_encryption_method(file_data, file_type):
     elif file_type in ['.pdf', '.docx']:
         return "Hybrid (RSA+AES)", "Document file, hybrid encryption balances security and performance"
     else:
-        return "Quantum-Resistant", "Unknown file type, using strongest encryption method"
+        return "Quantum-Resistant(NTRU+Kyber)", "Unknown file type, using strongest encryption method"
 
 # Generate encryption key
 def generate_key(entropy_pool=None):
@@ -167,7 +167,7 @@ def encrypt_file(file_data, method, key=None):
         
         return json.dumps(result).encode(), pem
     
-    elif method == "Quantum-Resistant":
+    elif method == "Quantum-Resistant NTRU+Kyber":
         # Simulate quantum-resistant encryption (this is just a simulation)
         quantum_key = simulate_quantum_key()
         
@@ -270,7 +270,7 @@ def decrypt_file(encrypted_data, method, key, password=None):
             
             return decrypted_data
         
-        elif method == "Quantum-Resistant":
+        elif method == "Quantum-Resistant NTRU+KYBER":
             # Parse the encrypted data
             data = json.loads(encrypted_data)
             

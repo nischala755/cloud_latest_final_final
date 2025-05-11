@@ -1,0 +1,58 @@
+{
+    "username": "user",
+    "email": "user123@gmail.com",
+    "password_hash": "d34efe9dc253a46179d411c35fc13115d6a1d42f969478a5683303cde6793767",
+    "salt": "680cf42aab826dd12c49d5c00630da51",
+    "created_at": "2025-05-11T18:34:23.817775",
+    "last_login": "2025-05-11T18:34:32.117324",
+    "score": 115,
+    "files": [
+        {
+            "file_id": "40176afc-95b5-4c5e-b5bf-13f1a8bf4f4e",
+            "file_name": "nosqlvsql (1) (1).pdf",
+            "encryption_method": "AES-256",
+            "uploaded_at": "2025-05-11T18:34:52.758323",
+            "last_accessed": "2025-05-11T18:34:52.758336"
+        },
+        {
+            "file_id": "11ef3a26-3a4c-4eee-8747-5655475be6b5",
+            "file_name": "EAadhaar_0000002888223320220611125657_10052025152825 (1).pdf",
+            "encryption_method": "Hybrid (RSA+AES)",
+            "uploaded_at": "2025-05-11T18:35:00.640512",
+            "last_accessed": "2025-05-11T18:35:00.640521"
+        },
+        {
+            "file_id": "158c1b48-1d07-4cb4-afc3-989cc0e796d0",
+            "file_name": "Fundamentals of Database Systems .pdf ( PDFDrive ).pdf",
+            "encryption_method": "Hybrid (RSA+AES)",
+            "uploaded_at": "2025-05-11T18:35:26.615317",
+            "last_accessed": "2025-05-11T18:35:26.615325"
+        }
+    ],
+    "shared_files": [],
+    "access_history": [
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T18:34:32.117338",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "40176afc-95b5-4c5e-b5bf-13f1a8bf4f4e",
+            "file_name": "nosqlvsql (1) (1).pdf",
+            "timestamp": "2025-05-11T18:34:52.758340"
+        },
+        {
+            "type": "upload",
+            "file_id": "11ef3a26-3a4c-4eee-8747-5655475be6b5",
+            "file_name": "EAadhaar_0000002888223320220611125657_10052025152825 (1).pdf",
+            "timestamp": "2025-05-11T18:35:00.640525"
+        },
+        {
+            "type": "upload",
+            "file_id": "158c1b48-1d07-4cb4-afc3-989cc0e796d0",
+            "file_name": "Fundamentals of Database Systems .pdf ( PDFDrive ).pdf",
+            "timestamp": "2025-05-11T18:35:26.615328"
+        }
+    ]
+}

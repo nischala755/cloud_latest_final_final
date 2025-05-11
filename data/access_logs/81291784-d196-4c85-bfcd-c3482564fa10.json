@@ -38,6 +38,25 @@
             "user": "admin",
             "timestamp": "2025-04-17T22:48:51.305628",
             "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-05-11T08:33:54.953395",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-05-11T18:17:16.242731",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "share",
+            "user": "admin",
+            "shared_with": "user1",
+            "permission": "write",
+            "timestamp": "2025-05-11T18:18:29.104756"
         }
     ]
 }

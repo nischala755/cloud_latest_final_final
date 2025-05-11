@@ -4,8 +4,8 @@
     "password_hash": "142b0a5c3ad0d17f28f47a1ffe1ec0c8dc25ef87cba21ee208969613e299e325",
     "salt": "a30f3b918141d38a662e03b1d290c7f3",
     "created_at": "2025-04-17T21:46:25.807620",
-    "last_login": "2025-04-17T22:48:43.969809",
-    "score": 118,
+    "last_login": "2025-05-11T18:15:31.623131",
+    "score": 141,
     "files": [
         {
             "file_id": "e75e6ed7-619b-45c7-890e-766484d26d52",
@@ -27,6 +27,34 @@
             "encryption_method": "Hybrid (RSA+AES)",
             "uploaded_at": "2025-04-17T21:53:39.312379",
             "last_accessed": "2025-04-17T21:53:39.312388"
+        },
+        {
+            "file_id": "d030c103-2e47-4b44-a365-13da114e7d37",
+            "file_name": "EAadhaar_0000002888223320220611125657_10052025152825.pdf",
+            "encryption_method": "Hybrid (RSA+AES)",
+            "uploaded_at": "2025-05-11T07:31:29.568205",
+            "last_accessed": "2025-05-11T07:31:29.568212"
+        },
+        {
+            "file_id": "f43d3c8e-494a-4ee8-9dff-20319c9ba8a3",
+            "file_name": "git-cheat-sheet-education.pdf",
+            "encryption_method": "AES-256",
+            "uploaded_at": "2025-05-11T07:48:08.306577",
+            "last_accessed": "2025-05-11T07:48:08.306591"
+        },
+        {
+            "file_id": "c2ccdfb8-826a-4652-ae51-729e1d70246d",
+            "file_name": "nosqlvsql (1).pdf",
+            "encryption_method": "AES-256",
+            "uploaded_at": "2025-05-11T08:28:05.958725",
+            "last_accessed": "2025-05-11T08:28:05.958736"
+        },
+        {
+            "file_id": "eff1472a-0e2a-453c-b90d-d7a052f9662f",
+            "file_name": "2023-Syllabus-till-4th-Sem (1).pdf",
+            "encryption_method": "Hybrid (RSA+AES)",
+            "uploaded_at": "2025-05-11T18:16:39.038006",
+            "last_accessed": "2025-05-11T18:16:39.038020"
         }
     ],
     "shared_files": [],
@@ -83,6 +111,100 @@
             "type": "login",
             "timestamp": "2025-04-17T22:48:43.969821",
             "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-04-18T08:48:51.330782",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:29:26.869354",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:30:46.849547",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "d030c103-2e47-4b44-a365-13da114e7d37",
+            "file_name": "EAadhaar_0000002888223320220611125657_10052025152825.pdf",
+            "timestamp": "2025-05-11T07:31:29.568216"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:39:50.371147",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:43:03.064646",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:44:43.106854",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:47:23.449271",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "f43d3c8e-494a-4ee8-9dff-20319c9ba8a3",
+            "file_name": "git-cheat-sheet-education.pdf",
+            "timestamp": "2025-05-11T07:48:08.306597"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:52:12.570967",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:54:21.262661",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T07:55:22.661739",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T08:27:38.736380",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "c2ccdfb8-826a-4652-ae51-729e1d70246d",
+            "file_name": "nosqlvsql (1).pdf",
+            "timestamp": "2025-05-11T08:28:05.958741"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T08:32:06.372806",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T08:33:45.094544",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "login",
+            "timestamp": "2025-05-11T18:15:31.623152",
+            "ip": "127.0.0.1"
+        },
+        {
+            "type": "upload",
+            "file_id": "eff1472a-0e2a-453c-b90d-d7a052f9662f",
+            "file_name": "2023-Syllabus-till-4th-Sem (1).pdf",
+            "timestamp": "2025-05-11T18:16:39.038026"
         }
     ]
 }

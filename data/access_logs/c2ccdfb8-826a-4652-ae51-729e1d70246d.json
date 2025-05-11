@@ -1,0 +1,18 @@
+{
+    "file_id": "c2ccdfb8-826a-4652-ae51-729e1d70246d",
+    "file_name": "nosqlvsql (1).pdf",
+    "logs": [
+        {
+            "action": "upload",
+            "user": "admin",
+            "timestamp": "2025-05-11T08:28:05.957029",
+            "ip": "127.0.0.1"
+        },
+        {
+            "action": "view",
+            "user": "admin",
+            "timestamp": "2025-05-11T08:28:21.522069",
+            "ip": "127.0.0.1"
+        }
+    ]
+}
